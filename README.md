@@ -2,6 +2,8 @@
 
 AlgoRehearsal is a data structures and algorithms (DSA) interview simulator built with Expo and React Native. Practice with a browser code editor, a Gemini Live interviewer, and separate AI assessments of your solution and interview.
 
+Try the [deployed web app](https://rogerwux.github.io/AlgoRehearsal/).
+
 ## Technical overview
 
 - TypeScript features own editor, interview, and settings state behind explicit module boundaries.
