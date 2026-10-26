@@ -6,7 +6,7 @@ module.exports = defineConfig([
   globalIgnores(['dist/**', 'web-build/**', '.expo/**', '.agents/**', '.codex/**', '.aws/**']),
   expoConfig,
   {
-    files: ['**/*.cjs', 'eslint.config.js', 'metro.config.js'],
+    files: ['**/*.cjs', 'app.config.js', 'eslint.config.js', 'metro.config.js'],
     languageOptions: {
       globals: globals.node,
     },
