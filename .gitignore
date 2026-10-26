@@ -1,0 +1,10 @@
+node_modules/
+.expo/
+.codex/*
+!.codex/config.toml
+dist/
+web-build/
+*.tsbuildinfo
+npm-debug.log*
+.DS_Store
+.env*.local

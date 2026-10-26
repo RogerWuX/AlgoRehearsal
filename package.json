@@ -1,0 +1,49 @@
+{
+  "name": "algorehearsal",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "lint": "eslint .",
+    "lint:fix": "npm run lint -- --fix",
+    "typecheck": "tsc --project tsconfig.typecheck.json --noEmit",
+    "build:web": "expo export --platform web",
+    "test": "node tests/run.cjs",
+    "test:metro": "node tests/metroStartup.test.cjs"
+  },
+  "dependencies": {
+    "@codemirror/commands": "^6.0.0",
+    "@codemirror/lang-cpp": "^6.0.0",
+    "@codemirror/lang-java": "^6.0.0",
+    "@codemirror/lang-javascript": "^6.0.0",
+    "@codemirror/lang-python": "^6.0.0",
+    "@codemirror/language": "^6.0.0",
+    "@codemirror/state": "^6.0.0",
+    "@codemirror/view": "^6.0.0",
+    "@expo/metro-runtime": "~55.0.12",
+    "@google/genai": "^2.3.0",
+    "@langchain/core": "^1.2.14",
+    "@langchain/google": "^0.2.6",
+    "expo": "~55.0.32",
+    "expo-constants": "~55.0.17",
+    "expo-status-bar": "~55.0.6",
+    "langchain": "^1.5.16",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "react-native": "0.83.10",
+    "react-native-logs": "^5.6.0",
+    "react-native-web": "~0.21.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/react": "~19.2.2",
+    "eslint": "^9.39.5",
+    "eslint-config-expo": "~55.0.1",
+    "globals": "^17.13.0",
+    "typescript": "~5.9.2"
+  }
+}

@@ -1,0 +1,1202 @@
+[
+  {
+    "title": "Two Sum",
+    "sourceUrl": "https://leetcode.com/problems/two-sum/",
+    "description": "Find the zero-based indices of two distinct elements in nums whose sum equals target. Exactly one pair exists; either index order is acceptable.",
+    "examples": [
+      {
+        "input": "nums = [4,8,3], target = 7",
+        "output": "[0,2]"
+      }
+    ],
+    "constraints": [
+      "2 <= nums.length <= 10^4",
+      "-10^9 <= nums[i], target <= 10^9",
+      "Exactly one valid pair exists."
+    ]
+  },
+  {
+    "title": "Best Time to Buy and Sell Stock",
+    "sourceUrl": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+    "description": "prices[i] gives a stock's price on day i. Choose at most one purchase and one sale on a later day. Return the greatest possible profit, or 0 when no profitable transaction exists.",
+    "examples": [
+      {
+        "input": "prices = [6,2,8,1]",
+        "output": "6"
+      }
+    ],
+    "constraints": [
+      "1 <= prices.length <= 10^5",
+      "0 <= prices[i] <= 10^4"
+    ]
+  },
+  {
+    "title": "Contains Duplicate",
+    "sourceUrl": "https://leetcode.com/problems/contains-duplicate/",
+    "description": "Determine whether nums includes any repeated integer. Return true when at least two positions hold the same value, otherwise false.",
+    "examples": [
+      {
+        "input": "nums = [4,2,4]",
+        "output": "true"
+      }
+    ],
+    "constraints": [
+      "1 <= nums.length <= 10^5",
+      "-10^9 <= nums[i] <= 10^9"
+    ]
+  },
+  {
+    "title": "Product of Array Except Self",
+    "sourceUrl": "https://leetcode.com/problems/product-of-array-except-self/",
+    "description": "Return an array whose element at index i is the product of all values in nums other than the value at i. The algorithm must take O(n) time and must not use division. Every prefix product, suffix product, and output value fits a signed 32-bit integer.",
+    "examples": [
+      {
+        "input": "nums = [2,3,4]",
+        "output": "[12,8,6]"
+      }
+    ],
+    "constraints": [
+      "2 <= nums.length <= 10^5",
+      "-30 <= nums[i] <= 30",
+      "Prefix products, suffix products, and output values fit signed 32-bit integers."
+    ]
+  },
+  {
+    "title": "Maximum Subarray",
+    "sourceUrl": "https://leetcode.com/problems/maximum-subarray/",
+    "description": "Return the greatest sum obtainable from a nonempty contiguous portion of nums.",
+    "examples": [
+      {
+        "input": "nums = [-3,5,-1,2,-4]",
+        "output": "6"
+      }
+    ],
+    "constraints": [
+      "1 <= nums.length <= 10^5",
+      "-10^4 <= nums[i] <= 10^4"
+    ]
+  },
+  {
+    "title": "Maximum Product Subarray",
+    "sourceUrl": "https://leetcode.com/problems/maximum-product-subarray/",
+    "description": "Return the greatest product obtainable from a nonempty contiguous portion of nums. A portion containing one element has that element as its product.",
+    "examples": [
+      {
+        "input": "nums = [-2,3,-4]",
+        "output": "24"
+      }
+    ],
+    "constraints": [
+      "1 <= nums.length <= 2 * 10^4",
+      "-10 <= nums[i] <= 10",
+      "Every contiguous subarray product fits a signed 32-bit integer."
+    ]
+  },
+  {
+    "title": "Find Minimum in Rotated Sorted Array",
+    "sourceUrl": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
+    "description": "nums contains distinct integers originally sorted in increasing order, then rotated right between 1 and n times, where n is its length. A rotation moves the final element to the front; n rotations restore the original order. Return the smallest value in O(log n) time.",
+    "examples": [
+      {
+        "input": "nums = [5,8,1,3]",
+        "output": "1"
+      }
+    ],
+    "constraints": [
+      "1 <= nums.length <= 5000",
+      "-5000 <= nums[i] <= 5000",
+      "Values are distinct.",
+      "The array is an increasing array rotated between 1 and nums.length times."
+    ]
+  },
+  {
+    "title": "Search in Rotated Sorted Array",
+    "sourceUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+    "description": "nums contains distinct integers originally sorted in increasing order and possibly rotated at an unknown position. Return the zero-based index of target in this array, or -1 if absent. The algorithm must take O(log n) time.",
+    "examples": [
+      {
+        "input": "nums = [5,8,1,3], target = 3",
+        "output": "3"
+      }
+    ],
+    "constraints": [
+      "1 <= nums.length <= 5000",
+      "-10^4 <= nums[i], target <= 10^4",
+      "Values are distinct.",
+      "The array is increasing before an optional rotation."
+    ]
+  },
+  {
+    "title": "3Sum",
+    "sourceUrl": "https://leetcode.com/problems/3sum/",
+    "description": "Return every distinct triplet of values from nums that sums to zero. Each triplet must use three different indices, and duplicate value triplets must be omitted. Triplets and their elements may appear in any order.",
+    "examples": [
+      {
+        "input": "nums = [-2,0,2,1,-1]",
+        "output": "[[-2,0,2],[-1,0,1]]"
+      }
+    ],
+    "constraints": [
+      "3 <= nums.length <= 3000",
+      "-10^5 <= nums[i] <= 10^5"
+    ]
+  },
+  {
+    "title": "Container With Most Water",
+    "sourceUrl": "https://leetcode.com/problems/container-with-most-water/",
+    "description": "At each horizontal coordinate i, a vertical line extends from height 0 to height[i]. Select two lines that, with the horizontal axis, form a container holding the greatest amount of water, and return that amount. The container must remain upright.",
+    "examples": [
+      {
+        "input": "height = [2,5,3,4]",
+        "output": "8"
+      }
+    ],
+    "constraints": [
+      "2 <= height.length <= 10^5",
+      "0 <= height[i] <= 10^4"
+    ]
+  },
+  {
+    "title": "Sum of Two Integers",
+    "sourceUrl": "https://leetcode.com/problems/sum-of-two-integers/",
+    "description": "Compute the sum of integers a and b without using either the addition operator or the subtraction operator.",
+    "examples": [
+      {
+        "input": "a = -4, b = 7",
+        "output": "3"
+      }
+    ],
+    "constraints": [
+      "-1000 <= a, b <= 1000"
+    ]
+  },
+  {
+    "title": "Number of 1 Bits",
+    "sourceUrl": "https://leetcode.com/problems/number-of-1-bits/",
+    "description": "Return the count of binary digits equal to 1 in the representation of the positive integer n.",
+    "examples": [
+      {
+        "input": "n = 13",
+        "output": "3"
+      }
+    ],
+    "constraints": [
+      "1 <= n <= 2^31 - 1"
+    ]
+  },
+  {
+    "title": "Counting Bits",
+    "sourceUrl": "https://leetcode.com/problems/counting-bits/",
+    "description": "Return an array indexed from 0 through n, where each entry counts the binary digits equal to 1 in its index. Do not use built-in population-count functions.",
+    "examples": [
+      {
+        "input": "n = 3",
+        "output": "[0,1,1,2]"
+      }
+    ],
+    "constraints": [
+      "0 <= n <= 10^5"
+    ]
+  },
+  {
+    "title": "Missing Number",
+    "sourceUrl": "https://leetcode.com/problems/missing-number/",
+    "description": "nums has length n and contains distinct integers from 0 through n inclusive. Return the single number in this range that does not occur in nums.",
+    "examples": [
+      {
+        "input": "nums = [4,0,2,1]",
+        "output": "3"
+      }
+    ],
+    "constraints": [
+      "1 <= nums.length <= 10^4",
+      "0 <= nums[i] <= nums.length",
+      "Values are distinct."
+    ]
+  },
+  {
+    "title": "Reverse Bits",
+    "sourceUrl": "https://leetcode.com/problems/reverse-bits/",
+    "description": "Reverse the order of all 32 bits in the signed integer n, retaining leading zeros as part of the 32-bit representation. Return the integer represented by the reversed bits.",
+    "examples": [
+      {
+        "input": "n = 2",
+        "output": "1073741824"
+      }
+    ],
+    "constraints": [
+      "0 <= n <= 2^31 - 2",
+      "n is even."
+    ]
+  },
+  {
+    "title": "Climbing Stairs",
+    "sourceUrl": "https://leetcode.com/problems/climbing-stairs/",
+    "description": "A staircase has n steps. Each move climbs either one step or two steps. Return the number of distinct ordered sequences of moves that reach the top exactly.",
+    "examples": [
+      {
+        "input": "n = 4",
+        "output": "5"
+      }
+    ],
+    "constraints": [
+      "1 <= n <= 45"
+    ]
+  },
+  {
+    "title": "Coin Change",
+    "sourceUrl": "https://leetcode.com/problems/coin-change/",
+    "description": "coins lists available coin denominations, with an unlimited supply of each. Return the smallest number of coins whose values sum to amount. Return -1 when this is impossible; amount 0 requires no coins.",
+    "examples": [
+      {
+        "input": "coins = [2,5], amount = 12",
+        "output": "3"
+      }
+    ],
+    "constraints": [
+      "1 <= coins.length <= 12",
+      "1 <= coins[i] <= 2^31 - 1",
+      "0 <= amount <= 10^4"
+    ]
+  },
+  {
+    "title": "Longest Increasing Subsequence",
+    "sourceUrl": "https://leetcode.com/problems/longest-increasing-subsequence/",
+    "description": "Return the length of the longest strictly increasing subsequence of nums. A subsequence may omit elements but must preserve their original relative order; its elements need not be contiguous.",
+    "examples": [
+      {
+        "input": "nums = [4,1,3,2,5]",
+        "output": "3"
+      }
+    ],
+    "constraints": [
+      "1 <= nums.length <= 2500",
+      "-10^4 <= nums[i] <= 10^4"
+    ]
+  },
+  {
+    "title": "Longest Common Subsequence",
+    "sourceUrl": "https://leetcode.com/problems/longest-common-subsequence/",
+    "description": "Return the greatest length of a sequence shared by text1 and text2 that can be formed by deleting zero or more characters from either string while preserving character order. Return 0 if the strings share no characters.",
+    "examples": [
+      {
+        "input": "text1 = \"axbyc\", text2 = \"abc\"",
+        "output": "3"
+      }
+    ],
+    "constraints": [
+      "1 <= text1.length, text2.length <= 1000",
+      "Both strings use lowercase English letters."
+    ]
+  },
+  {
+    "title": "Word Break",
+    "sourceUrl": "https://leetcode.com/problems/word-break/",
+    "description": "Determine whether all of s can be split into one or more consecutive words from wordDict. Dictionary entries can be reused. Return true if such a split exists, otherwise false.",
+    "examples": [
+      {
+        "input": "s = \"catdogcat\", wordDict = [\"cat\",\"dog\"]",
+        "output": "true"
+      }
+    ],
+    "constraints": [
+      "1 <= s.length <= 300",
+      "1 <= wordDict.length <= 1000",
+      "1 <= wordDict[i].length <= 20",
+      "s and dictionary words use lowercase English letters.",
+      "Dictionary entries are distinct."
+    ]
+  },
+  {
+    "title": "Combination Sum IV",
+    "sourceUrl": "https://leetcode.com/problems/combination-sum-iv/",
+    "description": "Return the number of ordered sequences of elements from nums whose sum is target. An element can be used repeatedly, and different orders count separately. The result fits a signed 32-bit integer.",
+    "examples": [
+      {
+        "input": "nums = [1,3], target = 4",
+        "output": "3"
+      }
+    ],
+    "constraints": [
+      "1 <= nums.length <= 200",
+      "1 <= nums[i] <= 1000",
+      "Values are distinct.",
+      "1 <= target <= 1000",
+      "The result fits a signed 32-bit integer."
+    ]
+  },
+  {
+    "title": "House Robber",
+    "sourceUrl": "https://leetcode.com/problems/house-robber/",
+    "description": "nums gives the money in each house along a straight street. Select houses to rob without choosing any two adjacent houses. Return the greatest total money obtainable.",
+    "examples": [
+      {
+        "input": "nums = [3,2,5,1]",
+        "output": "8"
+      }
+    ],
+    "constraints": [
+      "1 <= nums.length <= 100",
+      "0 <= nums[i] <= 400"
+    ]
+  },
+  {
+    "title": "House Robber II",
+    "sourceUrl": "https://leetcode.com/problems/house-robber-ii/",
+    "description": "nums gives the money in houses arranged around a circle, so the first and last houses are neighbors. Select houses to rob without choosing adjacent houses, and return the greatest total money obtainable.",
+    "examples": [
+      {
+        "input": "nums = [4,1,2,5]",
+        "output": "6"
+      }
+    ],
+    "constraints": [
+      "1 <= nums.length <= 100",
+      "0 <= nums[i] <= 1000"
+    ]
+  },
+  {
+    "title": "Decode Ways",
+    "sourceUrl": "https://leetcode.com/problems/decode-ways/",
+    "description": "A digit string encodes letters using 1 for A through 26 for Z. Return the number of valid ways to partition the entire string into these codes. Codes cannot have leading zeros, so 0 alone and 06 are invalid. Return 0 if no complete decoding exists. The result fits a signed 32-bit integer.",
+    "examples": [
+      {
+        "input": "s = \"23\"",
+        "output": "2"
+      }
+    ],
+    "constraints": [
+      "1 <= s.length <= 100",
+      "s contains decimal digits and can start with zeros.",
+      "The result fits a signed 32-bit integer."
+    ]
+  },
+  {
+    "title": "Unique Paths",
+    "sourceUrl": "https://leetcode.com/problems/unique-paths/",
+    "description": "A robot starts in the top-left cell of an m by n grid and must reach its bottom-right cell. Each move goes one cell right or one cell down. Return the number of distinct paths.",
+    "examples": [
+      {
+        "input": "m = 2, n = 4",
+        "output": "4"
+      }
+    ],
+    "constraints": [
+      "1 <= m, n <= 100",
+      "The answer is at most 2 * 10^9."
+    ]
+  },
+  {
+    "title": "Jump Game",
+    "sourceUrl": "https://leetcode.com/problems/jump-game/",
+    "description": "Start at index 0 of nums. At index i, nums[i] is the greatest number of positions you may jump forward. Return whether a sequence of allowed jumps can reach the final index.",
+    "examples": [
+      {
+        "input": "nums = [1,2,0,1]",
+        "output": "true"
+      }
+    ],
+    "constraints": [
+      "1 <= nums.length <= 10^4",
+      "0 <= nums[i] <= 10^5"
+    ]
+  },
+  {
+    "title": "Clone Graph",
+    "sourceUrl": "https://leetcode.com/problems/clone-graph/",
+    "description": "Given a node reference in a connected undirected graph, return the corresponding node in an independent deep copy of the entire graph. Nodes have an integer val and a neighbors list. Examples serialize the graph as an adjacency list: entry i lists the neighbors of node i + 1, and the given node has value 1. An empty adjacency list represents a null input; [[]] represents one isolated node. The copied nodes must be distinct objects from the originals.",
+    "examples": [
+      {
+        "input": "adjList = [[2],[1]]",
+        "output": "[[2],[1]]"
+      }
+    ],
+    "constraints": [
+      "0 <= number of nodes <= 100",
+      "1 <= Node.val <= 100",
+      "Node values are unique.",
+      "There are no duplicate edges or self-loops.",
+      "Every node is reachable from the given node."
+    ]
+  },
+  {
+    "title": "Course Schedule",
+    "sourceUrl": "https://leetcode.com/problems/course-schedule/",
+    "description": "Courses are labeled 0 through numCourses - 1. Each prerequisites pair [a, b] requires completing b before taking a. Return whether all courses can be completed.",
+    "examples": [
+      {
+        "input": "numCourses = 3, prerequisites = [[1,0],[2,1]]",
+        "output": "true"
+      }
+    ],
+    "constraints": [
+      "1 <= numCourses <= 2000",
+      "0 <= prerequisites.length <= 5000",
+      "prerequisites[i].length == 2",
+      "0 <= a, b < numCourses",
+      "Prerequisite pairs are unique."
+    ]
+  },
+  {
+    "title": "Pacific Atlantic Water Flow",
+    "sourceUrl": "https://leetcode.com/problems/pacific-atlantic-water-flow/",
+    "description": "The top and left sides of a rectangular heights grid touch the Pacific; the bottom and right sides touch the Atlantic. Water moves to an orthogonally adjacent cell of equal or lower height and can enter an ocean from its bordering cells. Return the zero-based [row, column] coordinates from which water can reach both oceans.",
+    "examples": [
+      {
+        "input": "heights = [[1,2],[4,3]]",
+        "output": "[[0,1],[1,0],[1,1]]"
+      }
+    ],
+    "constraints": [
+      "m == heights.length",
+      "n == heights[r].length",
+      "1 <= m, n <= 200",
+      "0 <= heights[r][c] <= 100000"
+    ]
+  },
+  {
+    "title": "Number of Islands",
+    "sourceUrl": "https://leetcode.com/problems/number-of-islands/",
+    "description": "In a rectangular grid, character \"1\" denotes land and \"0\" denotes water. Count the connected land regions, using only horizontal and vertical adjacency. Water surrounds the grid boundaries.",
+    "examples": [
+      {
+        "input": "grid = [[\"1\",\"0\",\"1\"],[\"1\",\"0\",\"0\"]]",
+        "output": "2"
+      }
+    ],
+    "constraints": [
+      "m == grid.length",
+      "n == grid[i].length",
+      "1 <= m, n <= 300",
+      "grid[i][j] is \"0\" or \"1\"."
+    ]
+  },
+  {
+    "title": "Longest Consecutive Sequence",
+    "sourceUrl": "https://leetcode.com/problems/longest-consecutive-sequence/",
+    "description": "Return the length of the longest run of consecutive integer values present in the unsorted nums array. Values need not appear next to each other in the input, and duplicates do not extend a run. The algorithm must run in O(n) time.",
+    "examples": [
+      {
+        "input": "nums = [9,3,1,2,2,10]",
+        "output": "3"
+      }
+    ],
+    "constraints": [
+      "0 <= nums.length <= 100000",
+      "-1000000000 <= nums[i] <= 1000000000"
+    ]
+  },
+  {
+    "title": "Alien Dictionary",
+    "sourceUrl": "https://leetcode.com/problems/alien-dictionary/",
+    "description": "An alien language uses lowercase English letters in an unknown alphabet order. Given words sorted lexicographically under that order, return a string containing every distinct observed letter once in any valid alphabet order. Return an empty string if the list is inconsistent. Lexicographic comparison uses the first differing character; a proper prefix must precede a longer word.",
+    "examples": [
+      {
+        "input": "words = [\"za\",\"zb\",\"ca\",\"cb\"]",
+        "output": "\"zabc\""
+      }
+    ],
+    "constraints": [
+      "words contains nonempty words of lowercase English letters."
+    ]
+  },
+  {
+    "title": "Graph Valid Tree",
+    "sourceUrl": "https://leetcode.com/problems/graph-valid-tree/",
+    "description": "Given n vertices labeled 0 through n - 1 and undirected edges [a, b], return whether the graph is a tree: all vertices are connected and there are no cycles.",
+    "examples": [
+      {
+        "input": "n = 4, edges = [[0,1],[1,2],[1,3]]",
+        "output": "true"
+      }
+    ],
+    "constraints": [
+      "n >= 1",
+      "Each edge has two distinct valid vertex labels.",
+      "Edges are not duplicated."
+    ]
+  },
+  {
+    "title": "Number of Connected Components in an Undirected Graph",
+    "sourceUrl": "https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/",
+    "description": "Given n vertices labeled 0 through n - 1 and undirected edges [a, b], return the number of connected components. Count isolated vertices as components.",
+    "examples": [
+      {
+        "input": "n = 5, edges = [[0,1],[1,2],[3,4]]",
+        "output": "2"
+      }
+    ],
+    "constraints": [
+      "n >= 1",
+      "Each edge contains two valid distinct vertex labels.",
+      "Edges are not duplicated."
+    ]
+  },
+  {
+    "title": "Insert Interval",
+    "sourceUrl": "https://leetcode.com/problems/insert-interval/",
+    "description": "The closed intervals array is sorted by start and contains no overlaps. Insert newInterval, merging intervals that share any point, including an endpoint. Return sorted, disjoint intervals covering the original intervals and newInterval. A new result array is allowed.",
+    "examples": [
+      {
+        "input": "intervals = [[1,2],[5,7]], newInterval = [2,5]",
+        "output": "[[1,7]]"
+      }
+    ],
+    "constraints": [
+      "0 <= intervals.length <= 10000",
+      "intervals[i].length == 2",
+      "0 <= start_i <= end_i <= 100000",
+      "intervals is sorted in ascending order of start_i and has no overlapping intervals.",
+      "newInterval.length == 2",
+      "0 <= start <= end <= 100000"
+    ]
+  },
+  {
+    "title": "Merge Intervals",
+    "sourceUrl": "https://leetcode.com/problems/merge-intervals/",
+    "description": "Combine all overlapping closed intervals and return disjoint intervals with the same coverage. Intervals sharing an endpoint overlap. The input need not be sorted.",
+    "examples": [
+      {
+        "input": "intervals = [[6,9],[1,4],[4,5]]",
+        "output": "[[1,5],[6,9]]"
+      }
+    ],
+    "constraints": [
+      "1 <= intervals.length <= 10000",
+      "intervals[i].length == 2",
+      "0 <= start_i <= end_i <= 10000"
+    ]
+  },
+  {
+    "title": "Non-overlapping Intervals",
+    "sourceUrl": "https://leetcode.com/problems/non-overlapping-intervals/",
+    "description": "Return the fewest intervals that must be removed so that the remaining intervals do not overlap. Two intervals meeting only at an endpoint are compatible.",
+    "examples": [
+      {
+        "input": "intervals = [[1,4],[2,3],[4,5]]",
+        "output": "1"
+      }
+    ],
+    "constraints": [
+      "1 <= intervals.length <= 100000",
+      "intervals[i].length == 2",
+      "-50000 <= start_i < end_i <= 50000"
+    ]
+  },
+  {
+    "title": "Meeting Rooms",
+    "sourceUrl": "https://leetcode.com/problems/meeting-rooms/",
+    "description": "Given meeting time intervals [start, end], determine whether one person can attend every meeting. A meeting may start at the exact time another ends.",
+    "examples": [
+      {
+        "input": "intervals = [[1,3],[3,5],[2,4]]",
+        "output": "false"
+      }
+    ],
+    "constraints": [
+      "Each interval contains a start and end with start < end."
+    ]
+  },
+  {
+    "title": "Meeting Rooms II",
+    "sourceUrl": "https://leetcode.com/problems/meeting-rooms-ii/",
+    "description": "Given meeting time intervals [start, end], return the minimum number of rooms needed to hold all meetings. A room becomes available at a meeting's end time and may host another meeting starting then.",
+    "examples": [
+      {
+        "input": "intervals = [[1,4],[2,3],[4,6]]",
+        "output": "2"
+      }
+    ],
+    "constraints": [
+      "Each interval contains a start and end with start < end."
+    ]
+  },
+  {
+    "title": "Reverse Linked List",
+    "sourceUrl": "https://leetcode.com/problems/reverse-linked-list/",
+    "description": "Reverse a singly linked list and return its new head. Example arrays list node values in traversal order; [] represents a null head.",
+    "examples": [
+      {
+        "input": "head = [2,4,6]",
+        "output": "[6,4,2]"
+      }
+    ],
+    "constraints": [
+      "0 <= number of nodes <= 5000",
+      "-5000 <= Node.val <= 5000"
+    ]
+  },
+  {
+    "title": "Linked List Cycle",
+    "sourceUrl": "https://leetcode.com/problems/linked-list-cycle/",
+    "description": "Return whether repeatedly following next pointers from head can revisit a node. The example head array serializes node values; pos identifies the zero-based node to which the tail connects, or -1 for a null tail link. pos is test construction metadata and is not an argument to the function.",
+    "examples": [
+      {
+        "input": "head = [8,3,5], pos = 0",
+        "output": "true"
+      }
+    ],
+    "constraints": [
+      "0 <= number of nodes <= 10000",
+      "-100000 <= Node.val <= 100000",
+      "pos is -1 or a valid node index."
+    ]
+  },
+  {
+    "title": "Merge Two Sorted Lists",
+    "sourceUrl": "https://leetcode.com/problems/merge-two-sorted-lists/",
+    "description": "Given the heads list1 and list2 of two nondecreasing singly linked lists, splice their existing nodes into one nondecreasing list and return its head. Example arrays serialize node values; [] represents a null head.",
+    "examples": [
+      {
+        "input": "list1 = [1,3], list2 = [2,3,5]",
+        "output": "[1,2,3,3,5]"
+      }
+    ],
+    "constraints": [
+      "Each input list has between 0 and 50 nodes.",
+      "-100 <= Node.val <= 100",
+      "Both lists are sorted in nondecreasing order."
+    ]
+  },
+  {
+    "title": "Merge k Sorted Lists",
+    "sourceUrl": "https://leetcode.com/problems/merge-k-sorted-lists/",
+    "description": "Given an array lists of k sorted linked-list heads, merge every list into one sorted linked list and return its head. Nested example arrays serialize each list; [] is an empty list.",
+    "examples": [
+      {
+        "input": "lists = [[1,5],[2,4],[]]",
+        "output": "[1,2,4,5]"
+      }
+    ],
+    "constraints": [
+      "k == lists.length",
+      "0 <= k <= 10000",
+      "0 <= lists[i].length <= 500",
+      "-10000 <= lists[i][j] <= 10000",
+      "Each list is sorted in nondecreasing order.",
+      "The total number of nodes across all lists is at most 10000."
+    ]
+  },
+  {
+    "title": "Remove Nth Node From End of List",
+    "sourceUrl": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
+    "description": "Remove the node at position n when counting from the end of a linked list, with n = 1 denoting the last node. Return the resulting head. Example arrays serialize node values; [] represents a null head.",
+    "examples": [
+      {
+        "input": "head = [4,5,6], n = 3",
+        "output": "[5,6]"
+      }
+    ],
+    "constraints": [
+      "sz is the number of nodes.",
+      "1 <= sz <= 30",
+      "0 <= Node.val <= 100",
+      "1 <= n <= sz"
+    ]
+  },
+  {
+    "title": "Reorder List",
+    "sourceUrl": "https://leetcode.com/problems/reorder-list/",
+    "description": "Rearrange the nodes of a singly linked list L0 -> L1 -> ... -> Ln into L0 -> Ln -> L1 -> L(n-1) -> ... . Modify the list in place by changing links; node values must stay unchanged. Example arrays show node values before and after the rearrangement.",
+    "examples": [
+      {
+        "input": "head = [2,4,6,8,10]",
+        "output": "[2,10,4,8,6]"
+      }
+    ],
+    "constraints": [
+      "1 <= number of nodes <= 50000",
+      "1 <= Node.val <= 1000"
+    ]
+  },
+  {
+    "title": "Set Matrix Zeroes",
+    "sourceUrl": "https://leetcode.com/problems/set-matrix-zeroes/",
+    "description": "Modify matrix in place so that every row and column containing a zero in the original matrix consists entirely of zeroes afterward. Example output shows the modified matrix.",
+    "examples": [
+      {
+        "input": "matrix = [[1,2,0],[4,5,6]]",
+        "output": "[[0,0,0],[4,5,0]]"
+      }
+    ],
+    "constraints": [
+      "m == matrix.length",
+      "n == matrix[0].length",
+      "1 <= m, n <= 200",
+      "-2147483648 <= matrix[i][j] <= 2147483647"
+    ]
+  },
+  {
+    "title": "Spiral Matrix",
+    "sourceUrl": "https://leetcode.com/problems/spiral-matrix/",
+    "description": "Return all values of a rectangular matrix in clockwise spiral order, beginning at the top-left cell and moving right along the first row.",
+    "examples": [
+      {
+        "input": "matrix = [[1,2,3],[4,5,6]]",
+        "output": "[1,2,3,6,5,4]"
+      }
+    ],
+    "constraints": [
+      "m == matrix.length",
+      "n == matrix[i].length",
+      "1 <= m, n <= 10",
+      "-100 <= matrix[i][j] <= 100"
+    ]
+  },
+  {
+    "title": "Rotate Image",
+    "sourceUrl": "https://leetcode.com/problems/rotate-image/",
+    "description": "Rotate a square matrix 90 degrees clockwise in place. Modify the supplied matrix directly without allocating another two-dimensional matrix. Example output shows its final contents.",
+    "examples": [
+      {
+        "input": "matrix = [[1,2],[3,4]]",
+        "output": "[[3,1],[4,2]]"
+      }
+    ],
+    "constraints": [
+      "n == matrix.length == matrix[i].length",
+      "1 <= n <= 20",
+      "-1000 <= matrix[i][j] <= 1000"
+    ]
+  },
+  {
+    "title": "Word Search",
+    "sourceUrl": "https://leetcode.com/problems/word-search/",
+    "description": "Return whether word can be spelled along a path of horizontally or vertically adjacent cells in board. Characters must match in order and case. A cell may appear at most once in the path.",
+    "examples": [
+      {
+        "input": "board = [[\"A\",\"B\"],[\"C\",\"D\"]], word = \"ABD\"",
+        "output": "true"
+      }
+    ],
+    "constraints": [
+      "m == board.length",
+      "n == board[i].length",
+      "1 <= m, n <= 6",
+      "1 <= word.length <= 15",
+      "board cells and word contain only uppercase or lowercase English letters."
+    ]
+  },
+  {
+    "title": "Longest Substring Without Repeating Characters",
+    "sourceUrl": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+    "description": "Find the greatest length of a contiguous segment of s whose characters are all distinct.",
+    "examples": [
+      {
+        "input": "s = \"abcabcbb\"",
+        "output": "3",
+        "explanation": "The segment \"abc\" has length 3 and no repeated character."
+      }
+    ],
+    "constraints": [
+      "0 <= s.length <= 10^5",
+      "Characters may be English letters, digits, punctuation, symbols, or spaces."
+    ]
+  },
+  {
+    "title": "Longest Repeating Character Replacement",
+    "sourceUrl": "https://leetcode.com/problems/longest-repeating-character-replacement/",
+    "description": "Change at most k positions in s to uppercase English letters. Return the greatest length of a contiguous segment that can consist entirely of one letter after those changes.",
+    "examples": [
+      {
+        "input": "s = \"ABAB\", k = 2",
+        "output": "4",
+        "explanation": "Changing both A characters to B makes the whole string uniform."
+      }
+    ],
+    "constraints": [
+      "1 <= s.length <= 10^5",
+      "Every character of s is an uppercase English letter.",
+      "0 <= k <= s.length"
+    ]
+  },
+  {
+    "title": "Minimum Window Substring",
+    "sourceUrl": "https://leetcode.com/problems/minimum-window-substring/",
+    "description": "Return the shortest contiguous segment of s containing every character of t with at least its required multiplicity. Return an empty string if none exists. The answer is unique for the supplied tests.",
+    "examples": [
+      {
+        "input": "s = \"ADOBECODEBANC\", t = \"ABC\"",
+        "output": "\"BANC\"",
+        "explanation": "This segment contains A, B, and C. No shorter segment contains them all."
+      }
+    ],
+    "constraints": [
+      "m = s.length; n = t.length",
+      "1 <= m, n <= 10^5",
+      "Both strings use uppercase and lowercase English letters."
+    ]
+  },
+  {
+    "title": "Valid Anagram",
+    "sourceUrl": "https://leetcode.com/problems/valid-anagram/",
+    "description": "Return whether rearranging all characters of s can produce t, using every occurrence exactly once.",
+    "examples": [
+      {
+        "input": "s = \"anagram\", t = \"nagaram\"",
+        "output": "true"
+      }
+    ],
+    "constraints": [
+      "1 <= s.length, t.length <= 5 * 10^4",
+      "Both strings use lowercase English letters."
+    ]
+  },
+  {
+    "title": "Group Anagrams",
+    "sourceUrl": "https://leetcode.com/problems/group-anagrams/",
+    "description": "Partition strs into groups of words that can be rearranged into one another. Include every input occurrence. The order of groups and words is unrestricted.",
+    "examples": [
+      {
+        "input": "strs = [\"eat\",\"tea\",\"tan\",\"ate\",\"nat\",\"bat\"]",
+        "output": "[[\"bat\"],[\"nat\",\"tan\"],[\"ate\",\"eat\",\"tea\"]]"
+      }
+    ],
+    "constraints": [
+      "1 <= strs.length <= 10^4",
+      "0 <= strs[i].length <= 100",
+      "Each string uses lowercase English letters."
+    ]
+  },
+  {
+    "title": "Valid Parentheses",
+    "sourceUrl": "https://leetcode.com/problems/valid-parentheses/",
+    "description": "Determine whether s forms correctly matched brackets. Each opening bracket needs a closing bracket of its own type, closings must respect nesting, and no closing bracket may lack a matching opening bracket.",
+    "examples": [
+      {
+        "input": "s = \"([)]\"",
+        "output": "false",
+        "explanation": "The closing parenthesis appears before the nested square bracket is closed."
+      }
+    ],
+    "constraints": [
+      "1 <= s.length <= 10^4",
+      "Allowed characters are (, ), [, ], {, and }."
+    ]
+  },
+  {
+    "title": "Valid Palindrome",
+    "sourceUrl": "https://leetcode.com/problems/valid-palindrome/",
+    "description": "Ignore characters other than letters and digits, and treat uppercase and lowercase letters as equal. Return whether the remaining sequence reads identically in both directions. An empty remaining sequence is a palindrome.",
+    "examples": [
+      {
+        "input": "s = \"A man, a plan, a canal: Panama\"",
+        "output": "true",
+        "explanation": "The normalized sequence is \"amanaplanacanalpanama\"."
+      }
+    ],
+    "constraints": [
+      "1 <= s.length <= 2 * 10^5",
+      "Input contains printable ASCII characters only."
+    ]
+  },
+  {
+    "title": "Longest Palindromic Substring",
+    "sourceUrl": "https://leetcode.com/problems/longest-palindromic-substring/",
+    "description": "Return a longest contiguous segment of s that reads identically forward and backward. Any longest answer is acceptable if several tie.",
+    "examples": [
+      {
+        "input": "s = \"babad\"",
+        "output": "\"bab\"",
+        "explanation": "\"aba\" is another acceptable result of the same length."
+      }
+    ],
+    "constraints": [
+      "1 <= s.length <= 1000",
+      "Characters are English letters or digits."
+    ]
+  },
+  {
+    "title": "Palindromic Substrings",
+    "sourceUrl": "https://leetcode.com/problems/palindromic-substrings/",
+    "description": "Count all nonempty contiguous segments of s that read identically in both directions. Segments at different positions count separately even when their text is equal.",
+    "examples": [
+      {
+        "input": "s = \"aaa\"",
+        "output": "6",
+        "explanation": "There are three length-one segments, two length-two segments, and one length-three segment."
+      }
+    ],
+    "constraints": [
+      "1 <= s.length <= 1000",
+      "All characters are lowercase English letters."
+    ]
+  },
+  {
+    "title": "Encode and Decode Strings",
+    "sourceUrl": "https://leetcode.com/problems/encode-and-decode-strings/",
+    "description": "Implement encode(strs), which converts an ordered list of strings into one string, and decode(encoded), which reconstructs the original list exactly. Preserve string boundaries, order, and empty strings; decoding must not depend on information outside the encoded string.",
+    "examples": [
+      {
+        "input": "decode(encode([\"hello\",\"\",\"world\"]))",
+        "output": "[\"hello\",\"\",\"world\"]",
+        "explanation": "No specific encoded representation is required in this example."
+      }
+    ],
+    "constraints": [
+      "The decoded list must equal the original list, including empty entries and character contents.",
+      "Support arbitrary string contents without losing string boundaries.",
+      "Encoding and decoding must not require shared state."
+    ]
+  },
+  {
+    "title": "Maximum Depth of Binary Tree",
+    "sourceUrl": "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+    "description": "Return the largest number of nodes on any root-to-leaf path in the binary tree. Return 0 for an empty tree. Examples represent trees in level order, with null for a missing child; trailing null entries may be omitted.",
+    "examples": [
+      {
+        "input": "root = [3,9,20,null,null,15,7]",
+        "output": "3"
+      }
+    ],
+    "constraints": [
+      "Node count: 0 through 10^4.",
+      "-100 <= Node.val <= 100"
+    ]
+  },
+  {
+    "title": "Same Tree",
+    "sourceUrl": "https://leetcode.com/problems/same-tree/",
+    "description": "Return whether binary trees p and q have identical structure and equal values at every corresponding node. Examples represent trees in level order, with null for a missing child; trailing null entries may be omitted.",
+    "examples": [
+      {
+        "input": "p = [1,2,3], q = [1,2,3]",
+        "output": "true"
+      }
+    ],
+    "constraints": [
+      "Each tree has 0 through 100 nodes.",
+      "-10^4 <= Node.val <= 10^4"
+    ]
+  },
+  {
+    "title": "Invert Binary Tree",
+    "sourceUrl": "https://leetcode.com/problems/invert-binary-tree/",
+    "description": "Mirror the binary tree by exchanging left and right children at every node, and return the resulting root. Examples represent trees in level order, with null for a missing child; trailing null entries may be omitted.",
+    "examples": [
+      {
+        "input": "root = [4,2,7,1,3,6,9]",
+        "output": "[4,7,2,9,6,3,1]"
+      }
+    ],
+    "constraints": [
+      "Node count: 0 through 100.",
+      "-100 <= Node.val <= 100"
+    ]
+  },
+  {
+    "title": "Binary Tree Maximum Path Sum",
+    "sourceUrl": "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
+    "description": "Return the greatest sum of node values over any nonempty path in the tree. A path follows edges between consecutive nodes, cannot visit a node twice, and may start and end anywhere; it need not include the root. Examples represent trees in level order, with null for a missing child; trailing null entries may be omitted.",
+    "examples": [
+      {
+        "input": "root = [-10,9,20,null,null,15,7]",
+        "output": "42",
+        "explanation": "The path 15 -> 20 -> 7 totals 42."
+      }
+    ],
+    "constraints": [
+      "Node count: 1 through 3 * 10^4.",
+      "-1000 <= Node.val <= 1000"
+    ]
+  },
+  {
+    "title": "Binary Tree Level Order Traversal",
+    "sourceUrl": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+    "description": "Return the node values grouped by depth, from the root downward, with values within each depth ordered from left to right. Examples represent trees in level order, with null for a missing child; trailing null entries may be omitted.",
+    "examples": [
+      {
+        "input": "root = [3,9,20,null,null,15,7]",
+        "output": "[[3],[9,20],[15,7]]"
+      }
+    ],
+    "constraints": [
+      "Node count: 0 through 2000.",
+      "-1000 <= Node.val <= 1000"
+    ]
+  },
+  {
+    "title": "Serialize and Deserialize Binary Tree",
+    "sourceUrl": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+    "description": "Implement serialize(root) to encode a binary tree as a string and deserialize(data) to restore its exact structure and values. Your string format is unrestricted. Example input and output use level-order arrays with null marking absent children; your serialization need not use that notation.",
+    "examples": [
+      {
+        "input": "root = [1,2,3,null,null,4,5]",
+        "output": "[1,2,3,null,null,4,5]",
+        "explanation": "The output denotes the tree after deserialize(serialize(root)), rather than a required encoded string."
+      }
+    ],
+    "constraints": [
+      "Node count: 0 through 10^4.",
+      "-1000 <= Node.val <= 1000"
+    ]
+  },
+  {
+    "title": "Subtree of Another Tree",
+    "sourceUrl": "https://leetcode.com/problems/subtree-of-another-tree/",
+    "description": "Return whether root contains a subtree identical to subRoot in structure and values. A subtree includes its chosen root and every descendant; the entire tree also qualifies. Examples represent trees in level order, with null for a missing child; trailing null entries may be omitted.",
+    "examples": [
+      {
+        "input": "root = [3,4,5,1,2], subRoot = [4,1,2]",
+        "output": "true"
+      }
+    ],
+    "constraints": [
+      "root has 1 through 2000 nodes.",
+      "subRoot has 1 through 1000 nodes.",
+      "Every node value in either tree is between -10^4 and 10^4."
+    ]
+  },
+  {
+    "title": "Construct Binary Tree from Preorder and Inorder Traversal",
+    "sourceUrl": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
+    "description": "Reconstruct and return the binary tree whose preorder and inorder traversal values are supplied. Preorder visits root, left subtree, then right subtree; inorder visits left subtree, root, then right subtree. Examples represent trees in level order, with null for a missing child; trailing null entries may be omitted.",
+    "examples": [
+      {
+        "input": "preorder = [3,9,20,15,7], inorder = [9,3,15,20,7]",
+        "output": "[3,9,20,null,null,15,7]"
+      }
+    ],
+    "constraints": [
+      "1 <= preorder.length <= 3000",
+      "inorder.length = preorder.length",
+      "-3000 <= preorder[i], inorder[i] <= 3000",
+      "Values are distinct within each array, and the arrays contain the same values.",
+      "Both arrays are valid corresponding traversals of the same tree."
+    ]
+  },
+  {
+    "title": "Validate Binary Search Tree",
+    "sourceUrl": "https://leetcode.com/problems/validate-binary-search-tree/",
+    "description": "Return whether the binary tree satisfies the strict binary search tree ordering: at each node, every left-subtree value must be smaller and every right-subtree value larger, and both subtrees must obey the same rule. Examples represent trees in level order, with null for a missing child; trailing null entries may be omitted.",
+    "examples": [
+      {
+        "input": "root = [5,1,4,null,null,3,6]",
+        "output": "false",
+        "explanation": "The right child has value 4, which is smaller than the root value 5."
+      }
+    ],
+    "constraints": [
+      "Node count: 1 through 10^4.",
+      "-2^31 <= Node.val <= 2^31 - 1"
+    ]
+  },
+  {
+    "title": "Kth Smallest Element in a BST",
+    "sourceUrl": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/",
+    "description": "Return the value ranked k when all node values in the binary search tree are ordered increasingly. Ranks begin at 1. Examples represent trees in level order, with null for a missing child; trailing null entries may be omitted.",
+    "examples": [
+      {
+        "input": "root = [3,1,4,null,2], k = 1",
+        "output": "1"
+      }
+    ],
+    "constraints": [
+      "Let n be the node count.",
+      "1 <= k <= n <= 10^4",
+      "0 <= Node.val <= 10^4"
+    ]
+  },
+  {
+    "title": "Lowest Common Ancestor of a Binary Search Tree",
+    "sourceUrl": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/",
+    "description": "Return the deepest node that is an ancestor of both supplied nodes p and q in the binary search tree. A node is considered its own ancestor. In examples, p, q, and the output identify nodes by their unique values. Examples represent trees in level order, with null for a missing child; trailing null entries may be omitted.",
+    "examples": [
+      {
+        "input": "root = [6,2,8,0,4,7,9,null,null,3,5], p = 2, q = 4",
+        "output": "2"
+      }
+    ],
+    "constraints": [
+      "Node count: 2 through 10^5.",
+      "-10^9 <= Node.val <= 10^9",
+      "Every node has a distinct value.",
+      "p and q are distinct nodes present in the tree."
+    ]
+  },
+  {
+    "title": "Implement Trie (Prefix Tree)",
+    "sourceUrl": "https://leetcode.com/problems/implement-trie-prefix-tree/",
+    "description": "Implement Trie(): initialize an empty prefix tree; insert(word): add a word; search(word): report whether the whole word was inserted; startsWith(prefix): report whether any inserted word begins with prefix. insert returns no value. In operation examples, null denotes constructor or void-method results.",
+    "examples": [
+      {
+        "input": "operations = [\"Trie\",\"insert\",\"search\",\"search\",\"startsWith\",\"insert\",\"search\"], arguments = [[],[\"apple\"],[\"apple\"],[\"app\"],[\"app\"],[\"app\"],[\"app\"]]",
+        "output": "[null,null,true,false,true,null,true]"
+      }
+    ],
+    "constraints": [
+      "1 <= word.length, prefix.length <= 2000",
+      "Words and prefixes use lowercase English letters.",
+      "The combined number of insert, search, and startsWith calls is at most 3 * 10^4."
+    ]
+  },
+  {
+    "title": "Design Add and Search Words Data Structure",
+    "sourceUrl": "https://leetcode.com/problems/design-add-and-search-words-data-structure/",
+    "description": "Implement WordDictionary(): initialize an empty dictionary; addWord(word): store a word and return no value; search(word): report whether any stored word matches the entire query. In a search query, each dot matches exactly one arbitrary letter. Operation examples use null for constructor and void-method results.",
+    "examples": [
+      {
+        "input": "operations = [\"WordDictionary\",\"addWord\",\"addWord\",\"addWord\",\"search\",\"search\",\"search\",\"search\"], arguments = [[],[\"bad\"],[\"dad\"],[\"mad\"],[\"pad\"],[\"bad\"],[\".ad\"],[\"b..\"]]",
+        "output": "[null,null,null,null,false,true,true,true]"
+      }
+    ],
+    "constraints": [
+      "1 <= word.length <= 25",
+      "Added words use lowercase English letters.",
+      "Search queries use lowercase English letters and dots, with at most two dots per query.",
+      "At most 10^4 combined addWord and search calls."
+    ]
+  },
+  {
+    "title": "Word Search II",
+    "sourceUrl": "https://leetcode.com/problems/word-search-ii/",
+    "description": "Return the words from words that can be traced on board using horizontally or vertically adjacent cells in sequence. A cell cannot be reused within one word. Return each found word once; the result order is unrestricted.",
+    "examples": [
+      {
+        "input": "board = [[\"o\",\"a\",\"a\",\"n\"],[\"e\",\"t\",\"a\",\"e\"],[\"i\",\"h\",\"k\",\"r\"],[\"i\",\"f\",\"l\",\"v\"]], words = [\"oath\",\"pea\",\"eat\",\"rain\"]",
+        "output": "[\"eat\",\"oath\"]"
+      }
+    ],
+    "constraints": [
+      "m = board.length; n = board[i].length",
+      "1 <= m, n <= 12",
+      "Board cells contain lowercase English letters.",
+      "1 <= words.length <= 3 * 10^4",
+      "1 <= words[i].length <= 10",
+      "Words use lowercase English letters and are distinct."
+    ]
+  },
+  {
+    "title": "Top K Frequent Elements",
+    "sourceUrl": "https://leetcode.com/problems/top-k-frequent-elements/",
+    "description": "Return the k distinct integers with the greatest occurrence counts in nums. Their output order is unrestricted, and the selected set is unique.",
+    "examples": [
+      {
+        "input": "nums = [1,1,1,2,2,3], k = 2",
+        "output": "[1,2]"
+      }
+    ],
+    "constraints": [
+      "1 <= nums.length <= 10^5",
+      "-10^4 <= nums[i] <= 10^4",
+      "1 <= k <= the count of distinct integers in nums",
+      "The answer set is uniquely determined."
+    ]
+  },
+  {
+    "title": "Find Median from Data Stream",
+    "sourceUrl": "https://leetcode.com/problems/find-median-from-data-stream/",
+    "description": "Implement MedianFinder(): initialize an empty collection; addNum(num): add an integer and return no value; findMedian(): return the median of all inserted integers. For an odd count, use the middle sorted value; for an even count, average the two middle values. Answers within 10^-5 of the true median are accepted. Operation examples use null for constructor and void-method results.",
+    "examples": [
+      {
+        "input": "operations = [\"MedianFinder\",\"addNum\",\"addNum\",\"findMedian\",\"addNum\",\"findMedian\"], arguments = [[],[1],[2],[],[3],[]]",
+        "output": "[null,null,null,1.5,null,2.0]"
+      }
+    ],
+    "constraints": [
+      "-10^5 <= num <= 10^5",
+      "findMedian is called only after at least one number has been inserted.",
+      "At most 5 * 10^4 combined addNum and findMedian calls."
+    ]
+  }
+]

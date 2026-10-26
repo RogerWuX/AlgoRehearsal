@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noUnusedLocals": true,
+    "baseUrl": ".",
+    "paths": {
+      "react-native/Libraries/Image/AssetSourceResolver": ["node_modules/react-native/types_generated/Libraries/Image/AssetSourceResolver.d.ts"],
+      "react-native/types/*": ["node_modules/react-native/types/*"],
+      "react-native/node_modules/@react-native/virtualized-lists": ["node_modules/@react-native/virtualized-lists"]
+    }
+  }
+}

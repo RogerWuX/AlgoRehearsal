@@ -1,0 +1,18 @@
+[features]
+hooks = true
+
+[[hooks.UserPromptSubmit]]
+
+[[hooks.UserPromptSubmit.hooks]]
+type = 'command'
+command = 'node "$(git rev-parse --show-toplevel)/scripts/projectChecks.cjs"'
+timeout = 30
+statusMessage = 'Snapshotting project before this turn'
+
+[[hooks.Stop]]
+
+[[hooks.Stop.hooks]]
+type = 'command'
+command = 'node "$(git rev-parse --show-toplevel)/scripts/projectChecks.cjs"'
+timeout = 600
+statusMessage = 'Checking project changes and running lint, typecheck, and tests'

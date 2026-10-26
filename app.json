@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "AlgoRehearsal",
+    "slug": "algorehearsal",
+    "version": "1.0.0",
+    "orientation": "default",
+    "userInterfaceStyle": "light",
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    }
+  }
+}

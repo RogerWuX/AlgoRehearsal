@@ -1,0 +1,26 @@
+// Run the credential-free suites in one process; Metro has its own build check.
+require('./models.test.cjs');
+require('./boundaries.test.cjs');
+require('./prompts.test.cjs');
+require('./logger.test.cjs');
+require('./logStorage.test.cjs');
+require('./questions.test.cjs');
+require('./providers.test.cjs');
+require('./interviewer.test.cjs');
+require('./thinkingRuntime.test.cjs');
+require('./selection.test.cjs');
+require('./problemSelection.test.cjs');
+require('./retry.test.cjs');
+require('./antigravity.test.cjs');
+require('./session.test.cjs');
+require('./judgment.test.cjs');
+require('./judgmentWorkflow.test.cjs');
+require('./judgmentUi.test.cjs');
+require('./chat.test.cjs');
+require('./settings.test.cjs');
+require('./preferences.test.cjs');
+require('./audio.test.cjs');
+require('./editor.test.cjs');
+require('./hooks.test.cjs');
+require('./recovery.test.cjs');
+require('./recoveryUi.test.cjs');
